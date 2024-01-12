@@ -1,49 +1,39 @@
-//string concatenation
+//variable 
 
-// const firstName = "Ajay";
-// const lastName = "yadav";
+let age = 24;
+// let price = 10.99;
 
-// let fullName = firstName + + lastName;
+// let score = 0;
 
+// console.log(`you are ${age} years old`)
+// console.log(`price of onion $${10.99}`)
 
-// console.log('your full name is :' + fullName);
-
-
-
-//solving the concatenate strings #2
-
-//Numbers problem
+// console.log(`you score is ${score}`)
 
 
-const score1 = 20;
-const score2 = 30;
-const score3 = 40;
 
-let totalScore = score1 + score2 + score3
-
-let averageScore = totalScore / 3;
-
-console.log(averageScore);
-console.log(totalScore);
-
-
-// Question-2
-
-const plates = 20;
-const people = 7;
-let reaminingPlate = plates - people;
-console.log(reaminingPlate)
-
-reaminingPlate += 1;
+//TO check the data type
 
 
 
 
-//Data types 
+//boolean
 
-let numOne = 3
 
-let numTwo = 3
+//  Boolean it either true or false
 
-console.log(numOne == numTwo);
+
+// let online = true;
+// let forSale = true;
+// let isStudent = true;
+
+// console.log(typeof online);
+// console.log(`Bro is online:${online}`)
+// console.log(`is this car is for : ${forSale}`)
+// console.log(`enrolled:${isStudent}`
+// )
+
+
+
+
 
