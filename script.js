@@ -195,6 +195,7 @@ console.log(z, typeof z);
 
 //const = a variable that can't be changed
 
+/*
 
 const PI = 3.14;
 let radius;
@@ -204,8 +205,32 @@ let circumference;
 
 
 document.getElementById("mysubmit").onclick = function () {
-    radius = document.getElementById("myText").value;
-    radius = Number(radius);
-    circumference = 2 * PI * radius;
-    document.getElementById("myH3").textContent = circumference + "cm";
+  radius = document.getElementById("myText").value;
+  radius = Number(radius);
+  circumference = 2 * PI * radius;
+  document.getElementById("myH3").textContent = circumference + "cm";
 }
+
+*/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Math = build - in object that provide a collection of properties and method
+
+
+// let x = 5.14;
+// let y = 3;
+// let z;
+
+// z = Math.round(x);
+
+// z = Math.floor(x);
+// z = Math.ceil(x);
+// z = Math.trunc(x);
+// z = Math.pow(x,y);
+// z = Math.log(x);
+// console.log(z);
+
+
