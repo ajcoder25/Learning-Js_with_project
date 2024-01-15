@@ -232,5 +232,39 @@ document.getElementById("mysubmit").onclick = function () {
 // z = Math.pow(x,y);
 // z = Math.log(x);
 // console.log(z);
+// let max = math.max(x, y, z);
+// let min
 
+
+//Random Number Generator
+
+
+// let randomNum = Math.random();
+// console.log(randomNum);
+
+/*
+
+// Program- 1 where dicing the dice how to do it and want to get the round number only
+
+let randomNum = Math.floor(Math.random() * 6 + 1);  // we put that in math.floor to get the round number
+console.log(randomNum);
+
+
+
+
+//Program -2 Try to create the random from 0- 100
+
+let randomNum = Math.floor(Math.random()* 100 +1);
+console.log(randomNum);
+
+
+
+/*
+const min = 50;
+const max = 100;
+let randomNum = Math.floor(Math.random()* (max - min)) + min;   // we use (max-min))
+console.log(randomNum);
+
+
+*/
 
