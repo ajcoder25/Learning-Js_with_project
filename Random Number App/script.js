@@ -1,7 +1,7 @@
 const myButton = document.getElementById("myButton");
-const label1 = document.getElementById("Label");
-const label2 = document.getElementById("Labe2");
-const label3 = document.getElementById("Labe3");
+const label1 = document.getElementById("Label1");
+const label2 = document.getElementById("Label2");
+const label3 = document.getElementById("Label3"); // Fix the variable name here
 
 const min = 1;
 const max = 6;
@@ -17,5 +17,4 @@ myButton.onclick = function () {
     label1.textContent = randomNum1;
     label2.textContent = randomNum2;
     label3.textContent = randomNum3;
-
 }

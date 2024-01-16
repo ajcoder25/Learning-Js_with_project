@@ -268,3 +268,30 @@ console.log(randomNum);
 
 */
 
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+// if statement
+/*
+let time = 9;
+
+if (time > 12) {
+  console.log('Good Afternoon')
+} else {
+  console.log("Good Morning")
+}
+
+
+*/
+
+
+let age = 25;
+let haslicense = false;
+
+
+if (age > 16) {
+  console.log('You are eligible to have license ')
+} else (age < 16){
+  console.log('You are not eligible to have License')
+}
