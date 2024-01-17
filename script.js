@@ -286,12 +286,18 @@ if (time > 12) {
 */
 
 
-let age = 25;
-let haslicense = false;
+// let age = 25;
+// let haslicense = false;
 
 
-if (age > 16) {
-  console.log('You are eligible to have license ')
-} else (age < 16){
-  console.log('You are not eligible to have License')
-}
+// if (age > 16) {
+//   console.log('You are eligible to have license ')
+// } else (age < 16){
+//   console.log('You are not eligible to have License')
+// }
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+//.checked = property that determines the checked state of an HTML Checkbox or radio button element
