@@ -301,3 +301,42 @@ if (time > 12) {
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 //.checked = property that determines the checked state of an HTML Checkbox or radio button element
+
+
+
+//////////////////////////////////////////
+
+/*
+
+ternary opertor = a shorcut to if{} and else {} statment helps to assign a variable based on a condition 
+                  condition ? codeIfTrue : codeIfFalse;
+
+
+                let age = 21
+                
+                let message = age>=18?"you're an adult": "you're a minor";  //If it is true then we assign the message (you're an adult ) and if it is false ('Youre a minor')
+                console.log(message)
+
+
+      Example 1:
+
+  let time = 13
+
+  let greeting = time>=12? "It's an Afternoon ": "it's is morning ";
+  console.log(greeting)
+
+
+  Example-2 
+
+   let isStudent = true;
+
+   let Check = isStudent? "you are studend":"You have passed the exam";
+
+
+   Example -3 
+
+   let purchaseAmount = 125;
+   let discount = purchaseAmount >=100 ? 10:0    //If its above 100 discount will be of 10% and if it is less than 100 it's 0
+   console.log(`Your Total is $${purchaseAmount - PurchaseAmount * (discount/100)})
+
+                */
