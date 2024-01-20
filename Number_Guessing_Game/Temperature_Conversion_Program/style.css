@@ -1,0 +1,68 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+h1 {
+
+    color: hsl(223, 100%, 64%);
+}
+
+
+form {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 15px black;
+}
+
+
+
+
+
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
+
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* Now will work on the radio Button */
+
+
+label {
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+button {
+
+    margin-top: 15px;
+    background-color: rgb(255, 28, 28);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: rgb(150, 6, 6)
+}
+
+#result {
+    font-size: 1.75em;
+    font-weight: bold;
+}
