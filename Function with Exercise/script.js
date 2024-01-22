@@ -63,17 +63,17 @@
 
 //function with a parameter
 
-function areaCircle(param1) {
+// function areaCircle(param1) {
 
-    let area = Math.PI * r * r
-    return area;
+//     let area = Math.PI * r * r
+//     return area;
 
-}
+// }
 
 
-let result = areaCircle()
+// let result = areaCircle()
 
-console.log(result(10));
+// console.log(result(10));
 
 
 //Sure, I see a couple of issues in your code. Let me correct it:
@@ -98,3 +98,31 @@ console.log(result(10));
 // 3. When logging the result, you don't need parentheses after `result` because `result` is now the calculated area, not a function.
 
 // With these changes, your function should now correctly calculate the area of a circle with a given radius and log the result to the console.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// function with two parameter
+
+
+// function addTwoNum(numOne, numTwo) {
+
+//     let sum = numOne + numTwo;
+//     return sum;
+// }
+
+// console.log(addTwoNum(20, 30))
+
+
+
+//function with two parameter using template literal
+
+function fullName(firstName, secondName) {
+
+    return `${firstName} ${secondName}`
+}
+
+
+console.log(fullName('Ajay', 'yadav'));
+
+
+
