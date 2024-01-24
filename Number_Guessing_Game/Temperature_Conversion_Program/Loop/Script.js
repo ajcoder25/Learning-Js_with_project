@@ -211,67 +211,198 @@
 
 //////////////////////////////////////////////////////////////
 
-// Number Guessing Game 
+// Number Guessing Game
 
 // const minNum = 1;
 // const maxNum = 100;
 // const answer = Math.random() * (maxNum - minNum + 1)
 // console.log(answer);
-const minNum = 1;
-const maxNum = 100;
-const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+// const minNum = 1;
+// const maxNum = 100;
+// const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+
+
+
+// //practice
+
+// const minNum = 1;
+// const maxNum = 100;
+
+// const answer = math.floor(Math.random() * (MaxNum - minNum + 1)) + minNum;
 
 
 
 
 
 
-let attempts = 0;
-let guess;
-let running = true;
+// let attempts = 0;
+// let guess;
+// let running = true;
+
+// //practice
+
+// // let attempt =0
+// // let guess;
+// // let running = true;
 
 
 
 
-while (running) {
+// while (running) {
 
-    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
-    guess = Number(guess);
-
-
-
-
-    if (isNaN(guess)) {
-        window.alert("Please enter a valid number");
-    }
-    else if (guess < minNum || guess > maxNum) {
-        window.alert("Please enter a valid number");
-    }
+//     guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
+//     guess = Number(guess);
 
 
 
 
-
-    else {
-        attempts++;
-        if (guess < answer) {
-            window.alert("TOO LOW! TRY AGAIN!");
-        }
-
-
-
-
-        else if (guess > answer) {
-            window.alert("TOO HIGH! TRY AGAIN!");
-        }
+//     if (isNaN(guess)) {
+//         window.alert("Please enter a valid number");
+//     }
+//     else if (guess < minNum || guess > maxNum) {
+//         window.alert("Please enter a valid number");
+//     }
 
 
 
 
 
-        else {
-            window.alert(`CORRECT! The answer was ${answer}. It took you ${attempts} attempts`);
-            running = false;
-        }
-    }
-}
+//     else {
+//         attempts++;
+//         if (guess < answer) {
+//             window.alert("TOO LOW! TRY AGAIN!");
+//         }
+
+
+
+
+//         else if (guess > answer) {
+//             window.alert("TOO HIGH! TRY AGAIN!");
+//         }
+
+
+
+
+
+//         else {
+//             window.alert(`CORRECT! The answer was ${answer}. It took you ${attempts} attempts`);
+//             running = false;
+//         }
+//     }
+// }
+
+
+
+// const minNum = 1;
+// const maxNum = 100;
+
+
+// const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+
+
+// let attempt = 0;
+// let guess;
+// let running = true;
+
+// while (running) {
+//     guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`)
+//     guess = Number(guess);
+
+//     if (isNaN(guess)) {
+//         window.alert("please enter the valid Number");
+//     }
+//     else if (guess < minNum || guess > maxNum) {
+//         window.alert('Please enter a valid number');
+//     }
+//     else {
+//         attempt++;
+//         if (guess < answer) {
+//             window.alert("Too Low! Try Again! ")
+//         }
+//         else if (guess > answer) {
+//             window.alert("Too High! Try Again!")
+//         }
+//     }else {
+//         window
+//     }
+
+//     running = false;
+// }
+
+
+// Guess Random Number Game
+
+// Sure, let's break down the code step by step:
+
+// 1. **Initialize Constants:**
+//    ```javascript
+//    const minNum = 1;
+//    const maxNum = 100;
+//    const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+//    ```
+//    - `minNum` and `maxNum` are constants representing the minimum and maximum numbers for the guessing game.
+//    - `answer` is a random number generated between `minNum` and `maxNum`.
+
+// 2. **Initialize Variables:**
+//    ```javascript
+//    let attempts = 0;
+//    let guess;
+//    let running = true;
+//    ```
+//    - `attempts` keeps track of the number of attempts the player has made.
+//    - `guess` will store the player's input.
+//    - `running` is a flag to control the game loop.
+
+// 3. **Game Loop:**
+//    ```javascript
+//    while(running){
+//    ```
+//    - This creates a loop that continues as long as `running` is `true`.
+
+// 4. **Player Input:**
+//    ```javascript
+//    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
+//    guess = Number(guess);
+//    ```
+//    - The player is prompted to enter a number between `minNum` and `maxNum`.
+//    - `Number(guess)` converts the input to a number.
+
+// 5. **Input Validation:**
+//    ```javascript
+//    if(isNaN(guess)){
+//        window.alert("Please enter a valid number");
+//    }
+//    else if(guess < minNum || guess > maxNum){
+//        window.alert("Please enter a valid number");
+//    }
+//    ```
+//    - Checks if the input is not a number or if it's outside the valid range, prompting the user to enter a valid number.
+
+// 6. **Game Logic:**
+//    ```javascript
+//    else {
+//        attempts++;
+//        if(guess < answer){
+//            window.alert("TOO LOW! TRY AGAIN!");
+//        }
+//        else if(guess > answer){
+//            window.alert("TOO HIGH! TRY AGAIN!");
+//        }
+//        else {
+//            window.alert(`CORRECT! The answer was ${answer}. It took you ${attempts} attempts`);
+//            running = false;
+//        }
+//    }
+//    ```
+//    - If the input is valid, the number of attempts is incremented.
+//    - Compares the player's guess with the randomly generated `answer`.
+//    - Provides feedback to the player (too low, too high, or correct).
+//    - If the guess is correct, the game ends, and a congratulatory message is displayed along with the number of attempts.
+
+// 7. **End of Game:**
+//    ```javascript
+//    }
+//    ```
+//    - The loop continues until the player guesses the correct number, at which point `running` is set to `false`, ending the game.
+
+// This script is a simple number guessing game where the player tries to guess a randomly generated number within a specified range. The program guides the player with hints and informs them of the number of attempts it took to guess correctly.
