@@ -30,7 +30,7 @@
 
 // Here, the `...rest` syntax is the rest parameter, and it collects all the arguments passed to the function into an array called `rest`.
 
-// If you were referring to a different concept or context when mentioning "rest in array," please provide more details or clarify, and I'll do my best to assist you.
+
 
 
 // Example-2:
